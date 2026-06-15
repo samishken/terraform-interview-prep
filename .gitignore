@@ -1,0 +1,52 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*.backup
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+secret.tfvars
+
+# Local environment files
+.env
+.env.*
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS files
+Thumbs.db
+desktop.ini
+
+# Node
+node_modules/
+
+# Python
+venv/
+__pycache__/
+
+# Logs
+*.log
+
+# Build outputs
+dist/
+build/
+
+# Mac specific
+.AppleDouble
+.LSOverride
+
+# JetBrains
+*.iml
